@@ -1,0 +1,5 @@
+manim_output/
+__pycache__/
+*.pyc
+Montserrat-Variable.ttf
+OpenSans-Variable.ttf
