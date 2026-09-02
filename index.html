@@ -9,8 +9,15 @@
 <body>
   <main id="stage"></main>
   <div id="topline"><span>QUANTUM TUNNELING</span><span id="counter"></span></div>
+  <button id="index-button" type="button" aria-expanded="false" aria-controls="index-menu"><span>☰</span> Index</button>
+  <div id="index-overlay" aria-hidden="true">
+    <nav id="index-menu" aria-label="Presentation index">
+      <div class="index-head"><div><small>QUANTUM TUNNELING</small><h2>Presentation index</h2></div><button id="index-close" type="button" aria-label="Close index">×</button></div>
+      <div id="index-list"></div>
+    </nav>
+  </div>
   <div id="progress"></div>
-  <div id="hint">← back · → / space next · F fullscreen</div>
+  <div id="hint">← back · → / space next slide · I index · F fullscreen</div>
   <script src="deck.js"></script>
 </body>
 </html>
